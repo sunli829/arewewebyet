@@ -29,13 +29,13 @@
     
 
 <h1>WebAssembly 
-<span class="level-indicator level-2"  title="getting there, stable but still maturing" >
- <i class="fa fa-chevron-circle-up"></i>
+<span class="level-indicator level-1"  title="pretty great already" >
+ <i class="fa fa-check-circle-o"></i>
  </span>
 </h1>
 
 
-<p>WebAssembly is currently being designed as an open standard by the W3C Community Group that includes representatives from all major browsers. There are two major libraries for JavaScript ffi - <code>wasm-bindgen</code> and <code>stdweb</code>. Eventually, they will <a href="https://github.com/koute/stdweb/issues/318">share</a> the same build tools. But at the moment to build <code>wasm-bindgen</code> project - <code>wasm-pack</code> is required, and for <code>stdweb</code> there is a <code>cargo-web</code>. Current ffi bindings for JavaScript api are quite low-level. There is an initiative to build a modular toolkit named <a href="https://rustwasm.github.io/2019/03/12/lets-build-gloo-together.html">gloo</a></p>
+<p>Rust can even run on the browser, by compiling to WebAssembly. This means that you can take advantage of the amazing Rust ecosystem on the browser! Rust and WebAssembly integrate with existing Javascript tooling. It supports NPM, Webpack, and ECMAScript modules! Here are some of the awesome Rust and WebAssembly projects out there. For frontend WebAssembly frameworks, see: <a href="https://www.arewewebyet.org/topics/frameworks#frontend">WebAssembly Frameworks</a></p>
 
 
 
@@ -82,49 +82,6 @@
   <p class="pkg-desc">
     Subcommand for Cargo to easily build code for `wasm32-wasi`
 
-  </p>
-</li>
-
-
-  
-  
-
-
-  
-<li id="pkg-cargo-web" class="pkg">
-  <span class="pkg-name"
-    title="est. 2017-02-11, last updated: 2019-07-15">cargo-web</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/cargo-web"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;koute&#x2F;cargo-web"><i class="fa fa-home"></i></a>
-  
-
-
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;koute&#x2F;cargo-web"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-cargo-web"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/cargo-web.svg" />
-    <img src="https://img.shields.io/crates/d/cargo-web.svg" />
-    <img src="https://img.shields.io/crates/l/cargo-web.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/koute&#x2F;cargo-web.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    A Cargo subcommand for the client-side Web
   </p>
 </li>
 
@@ -388,49 +345,6 @@
 
 
   
-<li id="pkg-mogwai" class="pkg">
-  <span class="pkg-name"
-    title="est. 2019-11-18, last updated: 2020-06-05">mogwai</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/mogwai"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;mogwai&#x2F;"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;schell&#x2F;mogwai"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-mogwai"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/mogwai.svg" />
-    <img src="https://img.shields.io/crates/d/mogwai.svg" />
-    <img src="https://img.shields.io/crates/l/mogwai.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/schell&#x2F;mogwai.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    The minimal, obvious, graphical, web application interface.
-  </p>
-</li>
-
-
-  
-  
-
-
-  
 <li id="pkg-moxie-dom" class="pkg">
   <span class="pkg-name"
     title="est. 2019-04-10, last updated: 2019-12-27">moxie-dom</span>
@@ -472,42 +386,42 @@
 
 
   
-<li id="pkg-plaster" class="pkg">
+<li id="pkg-parity-wasm" class="pkg">
   <span class="pkg-name"
-    title="est. 2019-02-01, last updated: 2019-07-13">plaster</span>
+    title="est. 2017-04-12, last updated: 2020-09-01">parity-wasm</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/plaster"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;carlosdp&#x2F;plaster"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;plaster&#x2F;"><i class="fa fa-book"></i></a>
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/parity-wasm"><i class="fa fa-cube"></i></a>
   
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;carlosdp&#x2F;plaster"><i class="fa fa-code"></i></a>
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;paritytech&#x2F;parity-wasm"><i class="fa fa-home"></i></a>
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-plaster"><i
+
+  
+  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;parity-wasm"><i class="fa fa-book"></i></a>
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;paritytech&#x2F;parity-wasm"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-parity-wasm"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/plaster.svg" />
-    <img src="https://img.shields.io/crates/d/plaster.svg" />
-    <img src="https://img.shields.io/crates/l/plaster.svg" />
+    <img src="https://img.shields.io/crates/v/parity-wasm.svg" />
+    <img src="https://img.shields.io/crates/d/parity-wasm.svg" />
+    <img src="https://img.shields.io/crates/l/parity-wasm.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/carlosdp&#x2F;plaster.svg">
+      <img src="https://img.shields.io/github/last-commit/paritytech&#x2F;parity-wasm.svg">
     
     </p>
   
   <p class="pkg-desc">
-    A wasm-bindgen framework for making client-side single-page apps
+    WebAssembly low-level format library
   </p>
 </li>
 
@@ -560,96 +474,6 @@
 
 
   
-<li id="pkg-seed" class="pkg">
-  <span class="pkg-name"
-    title="est. 2018-12-09, last updated: 2020-10-23">seed</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/seed"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;seed-rs.org"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;seed"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;seed-rs&#x2F;seed"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-seed"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/seed.svg" />
-    <img src="https://img.shields.io/crates/d/seed.svg" />
-    <img src="https://img.shields.io/crates/l/seed.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/seed-rs&#x2F;seed.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    A Rust framework for creating web apps, using WebAssembly
-  </p>
-</li>
-
-
-  
-  
-
-
-  
-<li id="pkg-smithy" class="pkg">
-  <span class="pkg-name"
-    title="est. 2018-07-14, last updated: 2019-09-02">smithy</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/smithy"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;www.smithy.rs"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.smithy.rs&#x2F;smithy"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;rbalicki2&#x2F;smithy"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-smithy"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/smithy.svg" />
-    <img src="https://img.shields.io/crates/d/smithy.svg" />
-    <img src="https://img.shields.io/crates/l/smithy.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/rbalicki2&#x2F;smithy.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    Smithy, a framework for web development
-  </p>
-</li>
-
-
-  
-  
-
-
-  
 <li id="pkg-squark" class="pkg">
   <span class="pkg-name"
     title="est. 2018-03-28, last updated: 2019-03-05">squark</span>
@@ -684,50 +508,6 @@
   
   <p class="pkg-desc">
     Virtual DOM implemention and application definition inspired from HyperApp
-  </p>
-</li>
-
-
-  
-  
-
-
-  
-<li id="pkg-state_machine_future" class="pkg">
-  <span class="pkg-name"
-    title="est. 2017-12-06, last updated: 2018-11-10">state_machine_future</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/state_machine_future"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;state_machine_future"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;fitzgen&#x2F;state_machine_future"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-state_machine_future"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/state_machine_future.svg" />
-    <img src="https://img.shields.io/crates/d/state_machine_future.svg" />
-    <img src="https://img.shields.io/crates/l/state_machine_future.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/fitzgen&#x2F;state_machine_future.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    Easily create type-safe `Future`s from state machines — without the boilerplate.
-
   </p>
 </li>
 
@@ -871,42 +651,86 @@
 
 
   
-<li id="pkg-wasm-bindgen-futures" class="pkg">
+<li id="pkg-walrus" class="pkg">
   <span class="pkg-name"
-    title="est. 2018-08-13, last updated: 2020-09-09">wasm-bindgen-futures</span>
+    title="est. 2019-02-12, last updated: 2020-07-14">walrus</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/wasm-bindgen-futures"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;rustwasm.github.io&#x2F;wasm-bindgen&#x2F;"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;wasm-bindgen-futures"><i class="fa fa-book"></i></a>
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/walrus"><i class="fa fa-cube"></i></a>
   
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;rustwasm&#x2F;wasm-bindgen&#x2F;tree&#x2F;master&#x2F;crates&#x2F;futures"><i class="fa fa-code"></i></a>
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;rustwasm&#x2F;walrus"><i class="fa fa-home"></i></a>
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-wasm-bindgen-futures"><i
+
+  
+  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;walrus"><i class="fa fa-book"></i></a>
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;rustwasm&#x2F;walrus"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-walrus"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/wasm-bindgen-futures.svg" />
-    <img src="https://img.shields.io/crates/d/wasm-bindgen-futures.svg" />
-    <img src="https://img.shields.io/crates/l/wasm-bindgen-futures.svg" />
+    <img src="https://img.shields.io/crates/v/walrus.svg" />
+    <img src="https://img.shields.io/crates/d/walrus.svg" />
+    <img src="https://img.shields.io/crates/l/walrus.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/rustwasm&#x2F;wasm-bindgen&#x2F;tree&#x2F;master&#x2F;crates&#x2F;futures.svg">
+      <img src="https://img.shields.io/github/last-commit/rustwasm&#x2F;walrus.svg">
     
     </p>
   
   <p class="pkg-desc">
-    Bridging the gap between Rust Futures and JavaScript Promises
+    A library for performing WebAssembly transformations
+
+  </p>
+</li>
+
+
+  
+  
+
+
+  
+<li id="pkg-wasmi" class="pkg">
+  <span class="pkg-name"
+    title="est. 2018-01-26, last updated: 2020-10-23">wasmi</span>
+  
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/wasmi"><i class="fa fa-cube"></i></a>
+  
+
+  
+
+
+  
+  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;paritytech.github.io&#x2F;wasmi&#x2F;"><i class="fa fa-book"></i></a>
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;paritytech&#x2F;wasmi"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-wasmi"><i
+      class="fa fa-hashtag"></i></a>
+
+  
+  <p class="pkg-meta">
+    <img src="https://img.shields.io/crates/v/wasmi.svg" />
+    <img src="https://img.shields.io/crates/d/wasmi.svg" />
+    <img src="https://img.shields.io/crates/l/wasmi.svg" />
+    
+      
+      <img src="https://img.shields.io/github/last-commit/paritytech&#x2F;wasmi.svg">
+    
+    </p>
+  
+  <p class="pkg-desc">
+    WebAssembly interpreter
   </p>
 </li>
 
@@ -959,47 +783,6 @@
 
 
   
-<li id="pkg-wasm-tracing-allocator" class="pkg">
-  <span class="pkg-name"
-    title="est. 2019-05-10, last updated: 2019-05-10">wasm-tracing-allocator</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/wasm-tracing-allocator"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;rustwasm&#x2F;wasm-tracing-allocator"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-wasm-tracing-allocator"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/wasm-tracing-allocator.svg" />
-    <img src="https://img.shields.io/crates/d/wasm-tracing-allocator.svg" />
-    <img src="https://img.shields.io/crates/l/wasm-tracing-allocator.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/rustwasm&#x2F;wasm-tracing-allocator.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    A global allocator for Wasm that traces allocations and deallocations for debugging purposes.
-  </p>
-</li>
-
-
-  
-  
-
-
-  
 <li id="pkg-woz" class="pkg">
   <span class="pkg-name"
     title="est. 2019-03-31, last updated: 2020-05-12">woz</span>
@@ -1035,51 +818,6 @@
   <p class="pkg-desc">
     Woz is a WebAssembly progressive web app (PWA) toolchain for deploying performant mobile apps distributed for free with a hyperlink.
 
-  </p>
-</li>
-
-
-  
-  
-
-
-  
-<li id="pkg-yew" class="pkg">
-  <span class="pkg-name"
-    title="est. 2017-12-24, last updated: 2020-10-18">yew</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/yew"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;yewstack&#x2F;yew"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;yew&#x2F;"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;yewstack&#x2F;yew"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-yew"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/yew.svg" />
-    <img src="https://img.shields.io/crates/d/yew.svg" />
-    <img src="https://img.shields.io/crates/l/yew.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/yewstack&#x2F;yew.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    A framework for making client-side single-page apps
   </p>
 </li>
 
