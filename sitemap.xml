@@ -141,6 +141,9 @@
         <loc>https://www.arewewebyet.org/topics/logging/</loc>
     </url>
     <url>
+        <loc>https://www.arewewebyet.org/topics/lower-web-stack/</loc>
+    </url>
+    <url>
         <loc>https://www.arewewebyet.org/topics/nodejs/</loc>
     </url>
     <url>
@@ -151,9 +154,6 @@
     </url>
     <url>
         <loc>https://www.arewewebyet.org/topics/soap/</loc>
-    </url>
-    <url>
-        <loc>https://www.arewewebyet.org/topics/stack/</loc>
     </url>
     <url>
         <loc>https://www.arewewebyet.org/topics/syndication/</loc>
