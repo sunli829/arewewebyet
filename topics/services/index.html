@@ -29,110 +29,16 @@
     
 
 <h1>External Services 
-<span class="level-indicator level-4"  title="unstable/incomplete, needs work" >
- <i class="fa fa-dot-circle-o"></i>
+<span class="level-indicator level-1"  title="pretty great already" >
+ <i class="fa fa-check-circle-o"></i>
  </span>
 </h1>
 
 
-<p>The modern web development stack doesn't only need a web-server but is often built on a range of external services to provide specific features, from worker queues to search and pubsub. Rust support for these is certainly not the greatest, but there are popular crates for the most popular services.</p>
+<p>The modern web development stack doesn't only need a web-server but is often built on a range of external services to provide specific features, from worker queues to search and pubsub. There are many mature crates for popular external services. For services accessed through a Web API, such as Cloud SDKs, see: <a href="https://www.arewewebyet.org/topics/web-apis/">External Web APIs</a> and for database support, see: <a href="https://www.arewewebyet.org/topics/database/">Databases</a></p>
 
 
 
-<h2>Cloud SDK</h2>
-<ul class="pkg-list">
-  
-  
-
-
-  
-<li id="pkg-rusoto_core" class="pkg">
-  <span class="pkg-name"
-    title="est. 2017-05-20, last updated: 2020-07-22">rusoto_core</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/rusoto_core"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;www.rusoto.org&#x2F;"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;rusoto_core"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;rusoto&#x2F;rusoto"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-rusoto_core"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/rusoto_core.svg" />
-    <img src="https://img.shields.io/crates/d/rusoto_core.svg" />
-    <img src="https://img.shields.io/crates/l/rusoto_core.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/rusoto&#x2F;rusoto.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    AWS SDK for Rust - Core
-  </p>
-</li>
-
-
-  
-  
-
-
-  
-<li id="pkg-azure_sdk_for_rust" class="pkg">
-  <span class="pkg-name"
-    title="est. 2016-01-18, last updated: 2019-06-01">azure_sdk_for_rust</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/azure_sdk_for_rust"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;MindFlavor&#x2F;AzureSDKForRust"><i class="fa fa-home"></i></a>
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="http:&#x2F;&#x2F;mindflavor.github.io&#x2F;AzureSDKForRust&#x2F;azure_sdk_for_rust&#x2F;index.html"><i class="fa fa-book"></i></a>
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;MindFlavor&#x2F;AzureSDKForRust"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-azure_sdk_for_rust"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/azure_sdk_for_rust.svg" />
-    <img src="https://img.shields.io/crates/d/azure_sdk_for_rust.svg" />
-    <img src="https://img.shields.io/crates/l/azure_sdk_for_rust.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/MindFlavor&#x2F;AzureSDKForRust.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    Rust wrappers around Microsoft Azure REST APIs
-  </p>
-</li>
-
-
-  
-</ul>
 <h2>Worker Queue</h2>
 <ul class="pkg-list">
   
@@ -140,38 +46,40 @@
 
 
   
-<li id="pkg-amqp" class="pkg">
+<li id="pkg-lapin" class="pkg">
   <span class="pkg-name"
-    title="est. 2014-11-20, last updated: 2019-01-24">amqp</span>
+    title="est. 2019-04-02, last updated: 2020-10-26">lapin</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/amqp"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/lapin"><i class="fa fa-cube"></i></a>
   
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;Antti&#x2F;rust-amqp"><i class="fa fa-code"></i></a>
+
+
+  
+  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;lapin"><i class="fa fa-book"></i></a>
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-amqp"><i
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;CleverCloud&#x2F;lapin"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-lapin"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/amqp.svg" />
-    <img src="https://img.shields.io/crates/d/amqp.svg" />
-    <img src="https://img.shields.io/crates/l/amqp.svg" />
+    <img src="https://img.shields.io/crates/v/lapin.svg" />
+    <img src="https://img.shields.io/crates/d/lapin.svg" />
+    <img src="https://img.shields.io/crates/l/lapin.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/Antti&#x2F;rust-amqp.svg">
+      <img src="https://img.shields.io/github/last-commit/CleverCloud&#x2F;lapin.svg">
     
     </p>
   
   <p class="pkg-desc">
-    AMQP&#x2F;RabbitMQ protocol client
+    AMQP client library
   </p>
 </li>
 
@@ -181,42 +89,83 @@
 
 
   
-<li id="pkg-beanstalkd" class="pkg">
+<li id="pkg-tokio-amqp" class="pkg">
   <span class="pkg-name"
-    title="est. 2014-12-06, last updated: 2018-05-31">beanstalkd</span>
+    title="est. 2020-04-11, last updated: 2020-10-19">tokio-amqp</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/beanstalkd"><i class="fa fa-cube"></i></a>
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/tokio-amqp"><i class="fa fa-cube"></i></a>
   
 
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;schickling&#x2F;rust-beanstalkd"><i class="fa fa-home"></i></a>
   
 
 
   
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;crate&#x2F;beanstalkd"><i class="fa fa-book"></i></a>
+  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;tokio-amqp"><i class="fa fa-book"></i></a>
   
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;schickling&#x2F;rust-beanstalkd"><i class="fa fa-code"></i></a>
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;CleverCloud&#x2F;lapin"><i class="fa fa-code"></i></a>
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-beanstalkd"><i
+  <a class="pkg-link action" title="permalink" href="#pkg-tokio-amqp"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/beanstalkd.svg" />
-    <img src="https://img.shields.io/crates/d/beanstalkd.svg" />
-    <img src="https://img.shields.io/crates/l/beanstalkd.svg" />
+    <img src="https://img.shields.io/crates/v/tokio-amqp.svg" />
+    <img src="https://img.shields.io/crates/d/tokio-amqp.svg" />
+    <img src="https://img.shields.io/crates/l/tokio-amqp.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/schickling&#x2F;rust-beanstalkd.svg">
+      <img src="https://img.shields.io/github/last-commit/CleverCloud&#x2F;lapin.svg">
     
     </p>
   
   <p class="pkg-desc">
-    Easy-to-use beanstalkd client for Rust (IronMQ compatible)
+    lapin integration with tokio
+  </p>
+</li>
+
+
+  
+  
+
+
+  
+<li id="pkg-beanstalkc" class="pkg">
+  <span class="pkg-name"
+    title="est. 2019-02-14, last updated: 2020-10-02">beanstalkc</span>
+  
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/beanstalkc"><i class="fa fa-cube"></i></a>
+  
+
+  
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;iFaceless&#x2F;beanstalkc-rust"><i class="fa fa-home"></i></a>
+  
+
+
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;iFaceless&#x2F;beanstalkc-rust"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-beanstalkc"><i
+      class="fa fa-hashtag"></i></a>
+
+  
+  <p class="pkg-meta">
+    <img src="https://img.shields.io/crates/v/beanstalkc.svg" />
+    <img src="https://img.shields.io/crates/d/beanstalkc.svg" />
+    <img src="https://img.shields.io/crates/l/beanstalkc.svg" />
+    
+      
+      <img src="https://img.shields.io/github/last-commit/iFaceless&#x2F;beanstalkc-rust.svg">
+    
+    </p>
+  
+  <p class="pkg-desc">
+    Yet another simple Beanstalkd client for Rust.
   </p>
 </li>
 
@@ -269,42 +218,38 @@
 
 
   
-<li id="pkg-kafka" class="pkg">
+<li id="pkg-rdkafka" class="pkg">
   <span class="pkg-name"
-    title="est. 2015-05-07, last updated: 2019-09-10">kafka</span>
+    title="est. 2016-10-29, last updated: 2020-07-09">rdkafka</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/kafka"><i class="fa fa-cube"></i></a>
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/rdkafka"><i class="fa fa-cube"></i></a>
   
 
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;spicavigo&#x2F;kafka-rust"><i class="fa fa-home"></i></a>
   
 
 
   
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;kafka&#x2F;"><i class="fa fa-book"></i></a>
-  
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;spicavigo&#x2F;kafka-rust"><i class="fa fa-code"></i></a>
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;fede1024&#x2F;rust-rdkafka"><i class="fa fa-code"></i></a>
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-kafka"><i
+  <a class="pkg-link action" title="permalink" href="#pkg-rdkafka"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/kafka.svg" />
-    <img src="https://img.shields.io/crates/d/kafka.svg" />
-    <img src="https://img.shields.io/crates/l/kafka.svg" />
+    <img src="https://img.shields.io/crates/v/rdkafka.svg" />
+    <img src="https://img.shields.io/crates/d/rdkafka.svg" />
+    <img src="https://img.shields.io/crates/l/rdkafka.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/spicavigo&#x2F;kafka-rust.svg">
+      <img src="https://img.shields.io/github/last-commit/fede1024&#x2F;rust-rdkafka.svg">
     
     </p>
   
   <p class="pkg-desc">
-    Rust client for Apache Kafka
+    Rust wrapper for librdkafka
   </p>
 </li>
 
@@ -314,40 +259,42 @@
 
 
   
-<li id="pkg-lapin" class="pkg">
+<li id="pkg-nats" class="pkg">
   <span class="pkg-name"
-    title="est. 2019-04-02, last updated: 2020-10-26">lapin</span>
+    title="est. 2015-09-08, last updated: 2020-10-20">nats</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/lapin"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;lapin"><i class="fa fa-book"></i></a>
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/nats"><i class="fa fa-cube"></i></a>
   
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;CleverCloud&#x2F;lapin"><i class="fa fa-code"></i></a>
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;nats-io&#x2F;nats.rs"><i class="fa fa-home"></i></a>
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-lapin"><i
+
+  
+  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;nats"><i class="fa fa-book"></i></a>
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;nats-io&#x2F;nats.rs"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-nats"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/lapin.svg" />
-    <img src="https://img.shields.io/crates/d/lapin.svg" />
-    <img src="https://img.shields.io/crates/l/lapin.svg" />
+    <img src="https://img.shields.io/crates/v/nats.svg" />
+    <img src="https://img.shields.io/crates/d/nats.svg" />
+    <img src="https://img.shields.io/crates/l/nats.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/CleverCloud&#x2F;lapin.svg">
+      <img src="https://img.shields.io/github/last-commit/nats-io&#x2F;nats.rs.svg">
     
     </p>
   
   <p class="pkg-desc">
-    AMQP client library
+    A Rust NATS client
   </p>
 </li>
 
@@ -357,46 +304,132 @@
 
 
   
-<li id="pkg-stomp" class="pkg">
+<li id="pkg-tmq" class="pkg">
   <span class="pkg-name"
-    title="est. 2014-11-23, last updated: 2015-12-16">stomp</span>
+    title="est. 2018-10-12, last updated: 2020-05-15">tmq</span>
   
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/stomp"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/tmq"><i class="fa fa-cube"></i></a>
   
 
   
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;zslayton&#x2F;stomp-rs"><i class="fa fa-code"></i></a>
+
+
   
 
-  <a class="pkg-link action" title="permalink" href="#pkg-stomp"><i
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;cetra3&#x2F;tmq"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-tmq"><i
       class="fa fa-hashtag"></i></a>
 
   
   <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/stomp.svg" />
-    <img src="https://img.shields.io/crates/d/stomp.svg" />
-    <img src="https://img.shields.io/crates/l/stomp.svg" />
+    <img src="https://img.shields.io/crates/v/tmq.svg" />
+    <img src="https://img.shields.io/crates/d/tmq.svg" />
+    <img src="https://img.shields.io/crates/l/tmq.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/zslayton&#x2F;stomp-rs.svg">
+      <img src="https://img.shields.io/github/last-commit/cetra3&#x2F;tmq.svg">
     
     </p>
   
   <p class="pkg-desc">
-    A full STOMP 1.2 client implementation. Allows programs to interact with message queueing services like ActiveMQ and RabbitMQ.
+    ZeroMQ bindings for Tokio
   </p>
 </li>
 
 
   
 </ul>
-<h2>Query engines</h2>
+<h2>Data Processing</h2>
 <ul class="pkg-list">
+  
+  
+
+
+  
+<li id="pkg-arrow" class="pkg">
+  <span class="pkg-name"
+    title="est. 2018-03-29, last updated: 2020-10-19">arrow</span>
+  
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/arrow"><i class="fa fa-cube"></i></a>
+  
+
+  
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;arrow"><i class="fa fa-home"></i></a>
+  
+
+
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;arrow"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-arrow"><i
+      class="fa fa-hashtag"></i></a>
+
+  
+  <p class="pkg-meta">
+    <img src="https://img.shields.io/crates/v/arrow.svg" />
+    <img src="https://img.shields.io/crates/d/arrow.svg" />
+    <img src="https://img.shields.io/crates/l/arrow.svg" />
+    
+      
+      <img src="https://img.shields.io/github/last-commit/apache&#x2F;arrow.svg">
+    
+    </p>
+  
+  <p class="pkg-desc">
+    Rust implementation of Apache Arrow
+  </p>
+</li>
+
+
+  
+  
+
+
+  
+<li id="pkg-arrow-flight" class="pkg">
+  <span class="pkg-name"
+    title="est. 2020-02-07, last updated: 2020-10-19">arrow-flight</span>
+  
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/arrow-flight"><i class="fa fa-cube"></i></a>
+  
+
+  
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;arrow"><i class="fa fa-home"></i></a>
+  
+
+
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;arrow"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-arrow-flight"><i
+      class="fa fa-hashtag"></i></a>
+
+  
+  <p class="pkg-meta">
+    <img src="https://img.shields.io/crates/v/arrow-flight.svg" />
+    <img src="https://img.shields.io/crates/d/arrow-flight.svg" />
+    <img src="https://img.shields.io/crates/l/arrow-flight.svg" />
+    
+      
+      <img src="https://img.shields.io/github/last-commit/apache&#x2F;arrow.svg">
+    
+    </p>
+  
+  <p class="pkg-desc">
+    Apache Arrow Flight
+  </p>
+</li>
+
+
   
   
 
@@ -436,6 +469,49 @@
   
   <p class="pkg-desc">
     DataFusion is an in-memory query engine that uses Apache Arrow as the memory model
+  </p>
+</li>
+
+
+  
+  
+
+
+  
+<li id="pkg-parquet" class="pkg">
+  <span class="pkg-name"
+    title="est. 2018-04-01, last updated: 2020-10-19">parquet</span>
+  
+  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/parquet"><i class="fa fa-cube"></i></a>
+  
+
+  
+  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;arrow"><i class="fa fa-home"></i></a>
+  
+
+
+  
+
+  
+  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;arrow"><i class="fa fa-code"></i></a>
+  
+
+  <a class="pkg-link action" title="permalink" href="#pkg-parquet"><i
+      class="fa fa-hashtag"></i></a>
+
+  
+  <p class="pkg-meta">
+    <img src="https://img.shields.io/crates/v/parquet.svg" />
+    <img src="https://img.shields.io/crates/d/parquet.svg" />
+    <img src="https://img.shields.io/crates/l/parquet.svg" />
+    
+      
+      <img src="https://img.shields.io/github/last-commit/apache&#x2F;arrow.svg">
+    
+    </p>
+  
+  <p class="pkg-desc">
+    Apache Parquet implementation in Rust
   </p>
 </li>
 
@@ -661,51 +737,6 @@
   
   <p class="pkg-desc">
     Redis driver for Rust.
-  </p>
-</li>
-
-
-  
-</ul>
-<h2>Connectors</h2>
-<ul class="pkg-list">
-  
-  
-
-
-  
-<li id="pkg-efflux" class="pkg">
-  <span class="pkg-name"
-    title="est. 2018-09-07, last updated: 2019-01-15">efflux</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/efflux"><i class="fa fa-cube"></i></a>
-  
-
-  
-
-
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;whitfin&#x2F;efflux"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-efflux"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/efflux.svg" />
-    <img src="https://img.shields.io/crates/d/efflux.svg" />
-    <img src="https://img.shields.io/crates/l/efflux.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/whitfin&#x2F;efflux.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    Easy MapReduce and Hadoop Streaming interfaces in Rust
   </p>
 </li>
 
