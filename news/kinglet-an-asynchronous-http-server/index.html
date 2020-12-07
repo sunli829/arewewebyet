@@ -3,6 +3,7 @@
 
 <head>
   <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel=stylesheet href=https:&#x2F;&#x2F;www.arewewebyet.org&#x2F;styles.css>
   <link rel=stylesheet href=https:&#x2F;&#x2F;www.arewewebyet.org&#x2F;gh-fork-ribbon.css>
   <link href=/atom.xml type=application/atom+xml rel=alternate title="Atom feed (for state changes and news)">
@@ -25,17 +26,17 @@
 
 <body>
 
-  <div role="content" class="content">
+  <main role="content" class="content">
+    <img src="/rust.png" alt="" class="rust-logo">
     
 
-<div class="news">
+<article class="article">
+  <div class="news">
+    <h1>Kinglet – an asynchronous HTTP server</h1>
 
-
-  <h1>Kinglet – an asynchronous HTTP server</h1>
-
-  <div class="meta">
-    Published 2015-12-03 
-    under <ul>
+    <div class="meta">
+      Published 2015-12-03 
+      under <ul>
       
       <li>
         stack
@@ -50,48 +51,48 @@
       </li>
       
     </ul>
+      
+    </div>
+
+
+    
+    <blockquote class="">
+      <cite>
+
+        Posted
+        
+        on <a href="https:&#x2F;&#x2F;users.rust-lang.org&#x2F;t&#x2F;kinglet-an-asynchronous-http-server&#x2F;3855">Rust Users Forum</a>
+        
+
+        
+        by <span class="name">pyfisch</a>
+         :
+      </cite>
+      <p><a href="https://github.com/pyfisch/kinglet" rel="nofollow">Kinglet</a> is the beginning of a HTTP server based on mio. It manages connnections using state machines from <a href="https://github.com/tailhook/rotor" rel="nofollow">rotor</a> by <a class="mention" href="/users/tailhook">@tailhook</a>. The most interesting part is the <a href="https://github.com/pyfisch/kinglet/blob/bb965b3bdddf5c2b84c04fd599575cdb0207efe8/src/http1.rs#L132-L222" rel="nofollow">request state machine</a>: with only a few lines of code it supports parsing requests with fixed size bodies, chunked bodies with optional trailers and even pipelining. Adding support for more states like <code>100-Expect-Continue</code> will be easy. Some parts of the code still need cleanup and the structures of requests and responses will change.</p>
+
+    </blockquote>
     
   </div>
 
-
   
-  <blockquote class="">
-    <cite>
-
-      Posted
-      
-      on <a href="https:&#x2F;&#x2F;users.rust-lang.org&#x2F;t&#x2F;kinglet-an-asynchronous-http-server&#x2F;3855">Rust Users Forum</a>
-      
-
-      
-      by <span class="name">pyfisch</a>
-       :
-    </cite>
-    <p><a href="https://github.com/pyfisch/kinglet" rel="nofollow">Kinglet</a> is the beginning of a HTTP server based on mio. It manages connnections using state machines from <a href="https://github.com/tailhook/rotor" rel="nofollow">rotor</a> by <a class="mention" href="/users/tailhook">@tailhook</a>. The most interesting part is the <a href="https://github.com/pyfisch/kinglet/blob/bb965b3bdddf5c2b84c04fd599575cdb0207efe8/src/http1.rs#L132-L222" rel="nofollow">request state machine</a>: with only a few lines of code it supports parsing requests with fixed size bodies, chunked bodies with optional trailers and even pipelining. Adding support for more states like <code>100-Expect-Continue</code> will be easy. Some parts of the code still need cleanup and the structures of requests and responses will change.</p>
-
-  </blockquote>
   
-</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</article>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
+  </main>
 
   <footer>
     <div class="devider">
@@ -123,12 +124,9 @@
           </li>
         </ul>
       </div>
-      <div class="call-to-action">
-
-      </div>
     </div>
     <p class="last-updated">
-      Last updated 24 November 2020 - <a href="https://github.com/rust-net-web/arewewebyet/#license">CC-BY-4.0</a>
+      Last updated 07 December 2020 - <a href="https://github.com/rust-net-web/arewewebyet/#license">CC-BY-4.0</a>
     </p>
   </footer>
 </body>

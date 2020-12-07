@@ -3,6 +3,7 @@
 
 <head>
   <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel=stylesheet href=https:&#x2F;&#x2F;www.arewewebyet.org&#x2F;styles.css>
   <link rel=stylesheet href=https:&#x2F;&#x2F;www.arewewebyet.org&#x2F;gh-fork-ribbon.css>
   <link href=/atom.xml type=application/atom+xml rel=alternate title="Atom feed (for state changes and news)">
@@ -25,17 +26,17 @@
 
 <body>
 
-  <div role="content" class="content">
+  <main role="content" class="content">
+    <img src="/rust.png" alt="" class="rust-logo">
     
 
-<div class="news">
+<article class="article">
+  <div class="news">
+    <h1>RustWebDigest #1: Getting Started Section, Servo this summer, iron session</h1>
 
-
-  <h1>RustWebDigest #1: Getting Started Section, Servo this summer, iron session</h1>
-
-  <div class="meta">
-    Published 2016-03-14 
-    under <ul>
+    <div class="meta">
+      Published 2016-03-14 
+      under <ul>
       
       <li>
         frameworks
@@ -50,22 +51,22 @@
       </li>
       
     </ul>
+      
+    </div>
+
+
     
-  </div>
+    <blockquote class="">
+      <cite>
 
+        Posted
+        
 
-  
-  <blockquote class="">
-    <cite>
-
-      Posted
-      
-
-      
-      by <span class="name">ben</a>
-       :
-    </cite>
-    <p>About a month has passed since we relaunched <a href="http://www.arewewebyet.org/">AreWeWebYet</a> and quite a few news and updates made the rounds. To make it easier for you to stay up to date with current developments in Rust-Web, we decided to launch the RustWebDigest – a semi regular blog series from the AWWY curators on the state of affairs and changes since the last update. Welcome to edition #1.</p>
+        
+        by <span class="name">ben</a>
+         :
+      </cite>
+      <p>About a month has passed since we relaunched <a href="http://www.arewewebyet.org/">AreWeWebYet</a> and quite a few news and updates made the rounds. To make it easier for you to stay up to date with current developments in Rust-Web, we decided to launch the RustWebDigest – a semi regular blog series from the AWWY curators on the state of affairs and changes since the last update. Welcome to edition #1.</p>
 <h2 id="getting-started-just-got-easier">Getting started just got easier</h2>
 <p>We've added a <a href="/#getting-started">new &quot;Getting Started&quot; section to the homepage</a> to highlight great resources to make it easier for you get into rust web development. One especially important news in there was the <a href="http://www.bashy.io/news/2016/03/05/clippy-linting-as-a-service/">launch of the clippy service by the Bashy Initiative</a>, a rust linting service which ships <a href="https://clippy.bashy.io/docs/">with 100% annotated source code</a> for everyone to learn from.</p>
 <h2 id="servo-in-summer-of-code">Servo in Summer of code</h2>
@@ -152,66 +153,65 @@
 </ul>
 <p>Anything we missed? <a href="https://github.com/bashyHQ/arewewebyet/issues/new">Let us know</a>!</p>
 
-  </blockquote>
+    </blockquote>
+    
+  </div>
+
   
-</div>
-
-
-
-
-<section class="authors">
-  <h3>Author</h3>
   
+  
+  <section class="authors">
+    <h3>Author</h3>
+    
 <div class="author" id="ben">
+  <img class="avatar" src="http:&#x2F;&#x2F;www.create-build-execute.com&#x2F;assets&#x2F;images&#x2F;ben.png" />
   
   <a href="/curators/#ben">
     
-
-    <img class="avatar" src="http:&#x2F;&#x2F;www.create-build-execute.com&#x2F;assets&#x2F;images&#x2F;ben.png" />
     <span class="name">Benjamin Kampmann</span>
-    <p class="social-media">
-      
-      <a href="http:&#x2F;&#x2F;www.create-build-execute.com" target="_blank"><i class="fa fa-home"></i></a>
-      
-
-      
-      <a href="https://www.github.com/ligthyear" target="_blank"><i class="fa fa-github"></i></a>
-      
-
-      
-      <a href="https://www.twitter.com/SirDonQui" target="_blank"><i class="fa fa-twitter"></i></a>
-      
-    </p>
-
-    
-    <p class="bio">
-      Freelance OpenSource Software Architect and Developer. I design, build and supervise the building of software (systems). Sometimes for clients, often times on my own, whenever possible as OpenSource. I care about good design in both, the User Experience and backend architecture and infrastructure. And I write about all this stuff.
-    </p>
-    
-
     
   </a>
   
+  <p class="social-media">
+    
+    <a href="http:&#x2F;&#x2F;www.create-build-execute.com" target="_blank"><i class="fa fa-home"></i></a>
+    
+
+    
+    <a href="https://www.github.com/ligthyear" target="_blank"><i class="fa fa-github"></i></a>
+    
+
+    
+    <a href="https://www.twitter.com/SirDonQui" target="_blank"><i class="fa fa-twitter"></i></a>
+    
+  </p>
+
+  
+  <p class="bio">
+    Freelance OpenSource Software Architect and Developer. I design, build and supervise the building of software (systems). Sometimes for clients, often times on my own, whenever possible as OpenSource. I care about good design in both, the User Experience and backend architecture and infrastructure. And I write about all this stuff.
+  </p>
+  
+
 </div>
 
-</section>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</article>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
+  </main>
 
   <footer>
     <div class="devider">
@@ -243,12 +243,9 @@
           </li>
         </ul>
       </div>
-      <div class="call-to-action">
-
-      </div>
     </div>
     <p class="last-updated">
-      Last updated 24 November 2020 - <a href="https://github.com/rust-net-web/arewewebyet/#license">CC-BY-4.0</a>
+      Last updated 07 December 2020 - <a href="https://github.com/rust-net-web/arewewebyet/#license">CC-BY-4.0</a>
     </p>
   </footer>
 </body>
