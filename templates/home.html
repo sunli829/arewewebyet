@@ -12,17 +12,20 @@
 <article class="article article--banner-spacing">
   <h1>Are we <em>web</em> yet?</h1>
 
-  <p class="tagline"><strong>Yes! And it's freaking fast!</strong></p>
+  <p class="tagline"><strong>Not quite, but we are getting there!</strong></p>
 
   <h2>Can I replace my Rails/Django/Flask already?</h2>
 
   <p>
-    <strong>Yup!</strong>
-    Rust has mature and production ready frameworks in <a href="/topics/frameworks/#pkg-actix-web">Actix Web</a> and
-    <a href="/topics/frameworks/#pkg-rocket">Rocket</a>, and newer ones like <a href="/topics/frameworks/#pkg-warp">Warp</a>
+    <strong>Probably not yet</strong>
+    Rust has many up and coming frameworks, the most notable being <a href="/topics/frameworks/#pkg-actix-web">Actix Web</a>,
+    <a href="/topics/frameworks/#pkg-rocket">Rocket</a>, <a href="/topics/frameworks/#pkg-warp">Warp</a>
     and <a href="/topics/frameworks/#pkg-tide">Tide</a>. These provide everything you’d expect from a web framework, from routing
-    and middleware, to templating, and JSON/form handling. There are crates for everything, and more! For databases, there’s:</p>
+    and middleware, to templating, and JSON/form handling. However, most of these frameworks are relatively new. There is a lot of work being done by some 
+    amazing people, but we are not quite there yet.
+  </p>
 
+  <p> Database support is good and getting better. There is:</p>
   <ul>
     <li>
       <a href="/topics/database/#pkg-diesel">Diesel</a>, a full-fledged ORM.
@@ -38,8 +41,8 @@
   </ul>
 
   {% set services = get_page(path="topics/services.md") %}
-  There are many integrations to third-party services {{ level::level(level=services.extra.level) }}, such as:
-
+  There are integrations to many popular third-party services {{ level::level(level=services.extra.level) }}, such as:
+  
   <ul>
     <li>
       <a href="/topics/web-apis/#pkg-rusoto_core">Rusoto</a> (AWS)
